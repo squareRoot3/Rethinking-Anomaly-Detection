@@ -21,10 +21,10 @@ The Yelp and Amazon datasets will be automatically downloaded from the Internet.
 
 Train BWGNN (homo) on Amazon (40%): 
 ```
-python main.py --dataset yelp --train_ratio 0.4 --hid_dim 64 \
+python main.py --dataset amazon --train_ratio 0.4 --hid_dim 64 \
 --order 2 --homo 1 --epoch 100 --run 1
 ```
-`yelp` can be replaced by other datasets: `amazon/tfinance/tsocial`
+`amazon` can be replaced by other datasets: `yelp/tfinance/tsocial`
 
 Train BWGNN (hetero) on Yelp (1%):
 ```
