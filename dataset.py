@@ -46,13 +46,13 @@ class Dataset:
             graph = graph[0]
 
         elif name == 'yelp':
-            dataset = FraudYelpDataset(train_size=0.4, val_size=0.2)
+            dataset = FraudYelpDataset()
             graph = dataset[0]
             if homo:
                 graph = dgl.to_homogeneous(dataset[0], ndata=['feature', 'label', 'train_mask', 'val_mask', 'test_mask'])
                 graph = dgl.add_self_loop(graph)
         elif name == 'amazon':
-            dataset = FraudAmazonDataset(train_size=0.4, val_size=0.2)
+            dataset = FraudAmazonDataset()
             graph = dataset[0]
             if homo:
                 graph = dgl.to_homogeneous(dataset[0], ndata=['feature', 'label', 'train_mask', 'val_mask', 'test_mask'])
