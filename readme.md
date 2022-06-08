@@ -33,8 +33,8 @@ python main.py --dataset yelp --train_ratio 0.01 --hid_dim 64 \
 ```
 BWGNN (hetero) only supports Yelp and Amazon.
 
-Train BWGNN (homo) on tsocial (0.01%):
+Train BWGNN (homo) on T-Social (40%):
 ```
-python main.py --dataset tsocial --train_ratio 0.0001 --hid_dim 10 \
+python main.py --dataset tsocial --train_ratio 0.4 --hid_dim 10 \
 --order 5 --homo 1 --epoch 100 --run 1
 ```
