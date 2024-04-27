@@ -3,7 +3,7 @@
 This is the official implementation for the following paper:
 
 [Rethinking Graph Neural Networks for Anomaly Detection](https://proceedings.mlr.press/v162/tang22b.html)  
-*Jianheng Tang, Jiajin Li, Ziqi Gao, Jia Li*
+*Jianheng Tang, Jiajin Li, Ziqi Gao, Jia Li*  
 ICML 2022
 
 BWGNN has been integrated into [GADBench](https://github.com/squareRoot3/GADBench), a comprehensive benchmark for (semi-)supervised graph anomaly detection.
