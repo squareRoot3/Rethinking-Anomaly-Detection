@@ -1,4 +1,4 @@
-# Rethinking Graph Neural Networks for Anomaly Detection
+# Rethinking Graph Neural Networks for Anomaly Detection 
 
 This is the official implementation for the following paper:
 
